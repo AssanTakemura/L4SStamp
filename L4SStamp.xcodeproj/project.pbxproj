@@ -15,6 +15,11 @@
 		1789DCBC2502B4AA003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCBA2502B4AA003C0D6B /* LaunchScreen.storyboard */; };
 		1789DCC72502B4AB003C0D6B /* L4SStampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DCC62502B4AB003C0D6B /* L4SStampTests.swift */; };
 		1789DCD22502B4AB003C0D6B /* L4SStampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DCD12502B4AB003C0D6B /* L4SStampUITests.swift */; };
+		1789DCE52502B4BE003C0D6B /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCE02502B4BE003C0D6B /* hana.png */; };
+		1789DCE62502B4BE003C0D6B /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCE12502B4BE003C0D6B /* onpu.png */; };
+		1789DCE72502B4BE003C0D6B /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCE22502B4BE003C0D6B /* hoshi.png */; };
+		1789DCE82502B4BE003C0D6B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCE32502B4BE003C0D6B /* background.png */; };
+		1789DCE92502B4BE003C0D6B /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DCE42502B4BE003C0D6B /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1789DCCD2502B4AB003C0D6B /* L4SStampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SStampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789DCD12502B4AB003C0D6B /* L4SStampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SStampUITests.swift; sourceTree = "<group>"; };
 		1789DCD32502B4AB003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DCE02502B4BE003C0D6B /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		1789DCE12502B4BE003C0D6B /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		1789DCE22502B4BE003C0D6B /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		1789DCE32502B4BE003C0D6B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1789DCE42502B4BE003C0D6B /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		1789DCAE2502B4A9003C0D6B /* L4SStamp */ = {
 			isa = PBXGroup;
 			children = (
+				1789DCDF2502B4BE003C0D6B /* Stamp */,
 				1789DCAF2502B4A9003C0D6B /* AppDelegate.swift */,
 				1789DCB12502B4A9003C0D6B /* SceneDelegate.swift */,
 				1789DCB32502B4A9003C0D6B /* ViewController.swift */,
@@ -126,6 +137,18 @@
 				1789DCD32502B4AB003C0D6B /* Info.plist */,
 			);
 			path = L4SStampUITests;
+			sourceTree = "<group>";
+		};
+		1789DCDF2502B4BE003C0D6B /* Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				1789DCE02502B4BE003C0D6B /* hana.png */,
+				1789DCE12502B4BE003C0D6B /* onpu.png */,
+				1789DCE22502B4BE003C0D6B /* hoshi.png */,
+				1789DCE32502B4BE003C0D6B /* background.png */,
+				1789DCE42502B4BE003C0D6B /* shitumon.png */,
+			);
+			path = Stamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1789DCBC2502B4AA003C0D6B /* LaunchScreen.storyboard in Resources */,
+				1789DCE72502B4BE003C0D6B /* hoshi.png in Resources */,
+				1789DCE82502B4BE003C0D6B /* background.png in Resources */,
+				1789DCE62502B4BE003C0D6B /* onpu.png in Resources */,
 				1789DCB92502B4AA003C0D6B /* Assets.xcassets in Resources */,
 				1789DCB72502B4A9003C0D6B /* Main.storyboard in Resources */,
+				1789DCE92502B4BE003C0D6B /* shitumon.png in Resources */,
+				1789DCE52502B4BE003C0D6B /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
